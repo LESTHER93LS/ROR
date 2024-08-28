@@ -1,0 +1,142 @@
+Started GET "/" for 127.0.0.1 at 2024-08-24 21:14:52 -0600
+  [1m[35m (9.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 383)
+Completed 200 OK in 212ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 7509)
+
+
+Started GET "/" for ::1 at 2024-08-28 10:22:11 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (32.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 748.3ms | Allocations: 389)
+Completed 200 OK in 2518ms (Views: 1211.7ms | ActiveRecord: 0.0ms | Allocations: 4538)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:37:49 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 383)
+Completed 200 OK in 62ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4531)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:37:54 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 24)
+Completed 200 OK in 5ms (Views: 2.8ms | ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/" for ::1 at 2024-08-28 10:38:12 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 15)
+Completed 200 OK in 26ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/" for ::1 at 2024-08-28 10:38:17 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 15)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/" for ::1 at 2024-08-28 10:38:19 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 15)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 214)
+
+
+Started GET "/" for ::1 at 2024-08-28 10:38:20 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 15)
+Completed 200 OK in 12ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 214)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:42:31 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.9ms | Allocations: 383)
+Completed 200 OK in 138ms (Views: 50.4ms | ActiveRecord: 0.0ms | Allocations: 4531)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:49:32 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 383)
+Completed 200 OK in 55ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 7467)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:50:23 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:51:37 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (34.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.4ms | Allocations: 383)
+Completed 200 OK in 16ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4531)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:52:56 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 383)
+Completed 200 OK in 37ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 4531)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 10:52:58 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | Allocations: 24)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/" for ::1 at 2024-08-28 10:53:07 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /root/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 15)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 220)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 11:11:10 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant AplicationController
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+Did you mean?  ApplicationController
+               ActionController
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started GET "/" for 127.0.0.1 at 2024-08-28 11:12:42 -0600
+Processing by ApplicationController#saludo as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 9)
+Completed 200 OK in 48ms (Views: 20.1ms | ActiveRecord: 0.0ms | Allocations: 1685)
+
+
+Started GET "/" for 127.0.0.1 at 2024-08-28 11:17:42 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#saludo as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 11)
+Completed 200 OK in 25ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 2444)
+
+
